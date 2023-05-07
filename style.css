@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500;900&family=Lato:wght@100;400;700&family=Major+Mono+Display&family=Montserrat:wght@100;400;500&family=Noto+Sans+Display:wght@100;400;600&family=Teko:wght@400;600;700&family=Tilt+Neon&family=Tilt+Warp&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+	margin: 0px;
+}
+
+
+.navbar {
+	z-index: 1000;
+  position: fixed;
+	top: -1px;
+	width: 100%;
+	height: 50px;
+/* 	height: 8%; */
+	margin-bottom: 20px;
+	text-align: left;
+	vertical-align: middle;
+	background-color: white;
+/* 	opacity: 1; */
+}
+
+img.banner {
+	margin-top: 2px;
+	margin-left: 2px;
+	width: auto;
+	height: 55px;
+	margin-right: 13px;
+	opacity: 1;
+	transition: 0.5s;
+	vertical-align: middle;
+}
+
+img.banner:hover {
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+.navBarIcon {
+	color: #4c00ff;
+	transition: 0.5s;
+	opacity: 1;
+	transition: 0.5s;
+	vertical-align: middle;
+	height: 37px;
+	width: auto;
+	margin-right: 7px;
+}
+
+.navBarIcon:hover {
+	color: #00aaff;
+	transition: 0.5s;
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 690px) {
+	.navbarIcon {margin-right: 15px;}
+	.navbar {text-align: center;}
+}
