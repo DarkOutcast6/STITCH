@@ -77,6 +77,11 @@ span.footer {
 	font-family: "Inter";
 }
 
+/* Home page */
+div.homepage {
+	margin-top: 80px;	
+}
+
 /* Card */
 div.card {
 	display: inline-block;
@@ -100,11 +105,11 @@ div.card:hover {
 	border-radius: 17px;
 	transition: 0.4s;
 	opacity: 0.8;
-	transition: 0.5s;
+	transition: 0.3s;
 	width: 246px;
-	transition: 0.5s;
+	transition: 0.3s;
 	height: auto;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 img.card {
