@@ -138,12 +138,19 @@ h4.card {
 }
 
 /* 404 */
-.PageNotFound {
+.pageNotFound {
+	margin-top: 80px;
 	text-align: center;
 	font-family: "Inter";
 }
+
+h1.pageNotFound {
+	margin-bottom: -50px;	
+}
+
 img.pageNotFound {
-	width: 140px;
+	margin-top: 10px;
+	width: 180px;
 	height: auto;
 	border-radius: 10px;
 }
