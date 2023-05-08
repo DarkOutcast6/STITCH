@@ -13,6 +13,10 @@ ul {
   list-style-position: inside;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* Navbar */
 .navbar {
 	z-index: 1000;
