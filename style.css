@@ -210,4 +210,11 @@ button.product:hover {
 img.product {
 	margin-bottom: 15px;
 	border-radius: 15px;
+  height: 450px;
+  width: auto;
+}
+
+img.product-rules {
+  height: 39px;
+  width: auto;
 }
