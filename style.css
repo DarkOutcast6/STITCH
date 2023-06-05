@@ -96,44 +96,47 @@ div.homepage {
 /* Card */
 div.card {
 	display: inline-block;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	transition: 0.4s;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  transition: 0.3s;
  	width: 245px;
-  transition: 0.5s;
   height: auto;
-  transition: 0.5s;
 	text-align: center;
   margin: auto;
 	margin-left: 10px;
 	margin-right: 10px;
   font-family: arial;
-	border-radius: 13px;
+	border-radius: 20px;
+  transition: 0.3s;
 	margin-bottom: 25px;
 	opacity: 1;
-	transition: 0.5s;
   vertical-align: middle;
-
 }
 
 div.card:hover, .div.card:focus, .div.card:active {
-  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.4);
-	transition: 0.4s;
-	opacity: 0.8;
-	transition: 0.3s;
-  width: 240px;
-  transition: 0.5s;
-  height: auto;
-  transition: 0.5s;
-  
+ box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  transition: 0.3s;
+	border-radius: 30px;
+  transition: 0.3s;
 }
 
 img.card {
 	width: 100%;
 	height: auto;
-	border-radius: 13px;
+	/* border-radius: 13px; */
+  border-top-left-radius: 20px;
+  transition: 0.3s;
+  border-top-right-radius: 20px;
+  transition: 0.3s;
 	border-bottom-width: 7px;
 	border-color: black;
 	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+img.card {
+  border-top-left-radius: 30px;
+  transition: 0.3s;
+  border-top-right-radius: 30px;
+  transition: 0.3s;  
 }
 
 h3.card {
@@ -212,6 +215,7 @@ button.product:hover {
 	height: 45px;
 	transition: 0.4s;
 }
+
 
 span.product {
   padding-left: 60px;
