@@ -213,6 +213,11 @@ button.product:hover {
 	transition: 0.4s;
 }
 
+span.product {
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
 img.product {
 	margin-bottom: 15px;
 	border-radius: 15px;
@@ -222,5 +227,10 @@ img.product {
 
 img.product-rules {
   height: 39px;
+  width: auto;
+}
+
+img.product-sizing {
+  height: 270px;
   width: auto;
 }
